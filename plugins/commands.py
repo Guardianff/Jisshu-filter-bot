@@ -187,6 +187,8 @@ async def start(client:Client, message):
                             InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
+                            InlineKeyboardButton('🔍 ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
+                        ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
                             InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
                         ],[
@@ -215,6 +217,8 @@ async def start(client:Client, message):
                         ],[
                             InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
+                        ],[
+                            InlineKeyboardButton('🔍 ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
                             InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
@@ -277,6 +281,8 @@ async def start(client:Client, message):
                         ],[
                             InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
+                        ],[
+                            InlineKeyboardButton('🔍 ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
                             InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
